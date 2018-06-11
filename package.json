@@ -1,0 +1,12 @@
+{
+  "name": "quill-content-test",
+  "version": "1.0.0",
+  "description": "Find five station names in a list that covers all letters of alphabet from a-z",
+  "main": "y",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Lisethe Sanmartin",
+  "license": "ISC"
+}
