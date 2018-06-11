@@ -32,9 +32,7 @@ var allCountLetters = [];
         var letter = alphabets26[a];
         if(subsetsOfFiveWords.indexOf(letter) > -1) icountLetters++
       }if(icountLetters === 26) {
-        var numOfStations = subsetsOfFiveWords.split('+').length;
-        var answerMessage = subsetsOfFiveWords + ' has ' + icountLetters + ' letters' + ' in ' + numOfStations + ' stations';               
-                    return answerMessage;
+        var answerMessage = `${subsetsOfFiveWords} has ${icountLetters} letters in ${subsetsOfFiveWords.split('+').length} stations`; return answerMessage;
                   }
       // reset counter
       icountLetters = 0;
